@@ -91,35 +91,37 @@ Open Source          ███████████░░░░░░░░�
 
 ## 🛠️ Tech Stack
 
-### Languages
+<div align="center">
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js" alt="Languages"/>
-</p>
+### 💻 Languages
 
-### Frontend
+<img src="https://skillicons.dev/icons?i=python,cpp,java,js" alt="Languages"/>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,react,tailwind" alt="Frontend"/>
-</p>
+<br><br>
 
-### Backend & Database
+### 🎨 Frontend
 
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" alt="Backend and Database"/>
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,react,tailwind" alt="Frontend"/>
 
-### AI / Machine Learning
+<br><br>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow" alt="AI and Machine Learning"/>
-</p>
+### ⚙️ Backend & Database
 
-### Tools
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" alt="Backend and Database"/>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Tools"/>
-</p>
+<br><br>
+
+### 🤖 AI / Machine Learning
+
+<img src="https://skillicons.dev/icons?i=python,tensorflow" alt="AI and Machine Learning"/>
+
+<br><br>
+
+### 🔧 Tools & Development
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Development Tools"/>
+
+</div>
 
 ---
 
