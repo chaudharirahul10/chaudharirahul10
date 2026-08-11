@@ -1,10 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Rahul%20Chaudhary&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Machine%20Learning%20Student%20%7C%20Python%20Developer&descAlignY=58&descSize=18" width="100%" alt="Rahul Chaudhary"/>
+# Rahul Chaudhary
 
 ### AI & Machine Learning Student | Python Developer | Building intelligent solutions through code.
 
 <br>
+
+<a href="https://www.rahulchaudhary07.com.np">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-2563eb?style=for-the-badge" alt="Portfolio"/>
+</a>
+&nbsp;
+<a href="https://github.com/chaudharirahul10">
+  <img src="https://img.shields.io/badge/💻_GitHub-View_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+</div>
+
+---
 
 <a href="https://www.rahulchaudhary07.com.np">
   <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
