@@ -117,6 +117,17 @@ Open Source          ███████████░░░░░░░░�
 
 <br><br>
 
+### 📊 Data & Analytics
+
+<img src="https://skillicons.dev/icons?i=python" alt="Python"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft Fabric"/>
+
+
 ### 🔧 Tools & Development
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Development Tools"/>
