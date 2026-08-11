@@ -20,11 +20,65 @@
 
 ## 👨‍💻 About Me
 
-<!-- We'll add your real portfolio information here -->
+I'm Rahul Chaudhary, an AI & Machine Learning student and Python developer focused on building practical software solutions.
 
-I'm a student focused on building practical solutions with Python, Artificial Intelligence, Machine Learning, and modern web technologies.
+My interests span across **Artificial Intelligence, Machine Learning, Python, and Full-Stack Development**, with a focus on turning ideas into useful and real-world applications.
+
+I enjoy learning by building, experimenting with new technologies, and continuously improving my problem-solving and development skills.
 
 ---
+
+## 🚀 Currently Building
+
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 AI & Machine Learning
+
+Exploring machine learning concepts, intelligent systems, data-driven solutions, and practical AI applications using Python.
+
+</td>
+
+<td width="50%">
+
+### 🌐 Full-Stack Development
+
+Building modern web applications and experimenting with frontend, backend, APIs, authentication, databases, and state management.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🐍 Python Development
+
+Strengthening my Python skills through automation, data analysis, machine learning, and application development.
+
+</td>
+
+<td width="50%">
+
+### 📚 Continuous Learning
+
+Currently improving my software engineering fundamentals, problem-solving abilities, and understanding of modern development technologies.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 What I'm Focused On
+
+```text
+AI / ML              █████████████████░░░
+Python               ██████████████████░░
+Full-Stack           ███████████████░░░░░
+Problem Solving      ██████████████░░░░░░
+Open Source          ███████████░░░░░░░░░
+```
 
 ## 🚀 Currently Building
 
@@ -148,7 +202,7 @@ A full-stack task management application built to explore frontend-backend integ
 </a>
 
 </div>
----
+
 ## 📊 GitHub Activity
 
 <div align="center">
