@@ -247,9 +247,10 @@ A full-stack task management application built to explore frontend-backend integ
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=chaudharirahul10&hide_border=true" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chaudharirahul10&hide_border=true&area=true" width="95%" alt="Rahul's Contribution Graph"/>
 
 </div>
+
 
 ---
 
