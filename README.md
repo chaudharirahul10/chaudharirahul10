@@ -71,48 +71,84 @@ I'm a student focused on building practical solutions with Python, Artificial In
 
 ## ⭐ Featured Projects
 
-<!-- We'll replace these with your strongest real projects -->
+<div align="center">
 
-### 🛒 Project One
+### 🌐 Portfolio
 
-> Short description of the project.
+A personal developer portfolio showcasing my projects, technical skills, experience, and journey in software development.
 
-**Tech:** React • Node.js • MongoDB
+**Tech:** JavaScript • React • Modern Web Technologies
 
-[View Repository](#) · [Live Demo](#)
+<a href="https://github.com/chaudharirahul10/portfolio">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/>
+</a>
 
----
-
-### 🤖 Project Two
-
-> Short description of the project.
-
-**Tech:** Python • Machine Learning
-
-[View Repository](#) · [Live Demo](#)
+</div>
 
 ---
 
-### 🌐 Project Three
+<div align="center">
 
-> Short description of the project.
+### 📝 Post Composer
 
-**Tech:** React • Node.js
+A React-based content creation application focused on building an interactive and structured post-composing experience.
 
-[View Repository](#) · [Live Demo](#)
+**Tech:** React • JavaScript
 
----
+<a href="https://github.com/chaudharirahul10/post_composer">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/>
+</a>
 
-### 📅 Project Four
-
-> Short description of the project.
-
-**Tech:** React • Redux • Node.js
-
-[View Repository](#) · [Live Demo](#)
+</div>
 
 ---
 
+<div align="center">
+
+### ⚛️ Redux Post Manager
+
+A React application exploring state management and structured post operations using Redux.
+
+**Tech:** React • Redux • JavaScript
+
+<a href="https://github.com/chaudharirahul10/redux_post_manager">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 🔐 Authentication System
+
+A web-based authentication project featuring user login and an interactive dashboard experience.
+
+**Tech:** JavaScript • Authentication • Web Development
+
+<a href="https://github.com/chaudharirahul10/Authentication-System">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 📋 To-Do List
+
+A full-stack task management application built to explore frontend-backend integration and persistent data handling.
+
+**Tech:** JavaScript • Backend Development
+
+<a href="https://github.com/chaudharirahul10/To-Do-List">
+  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/>
+</a>
+
+</div>
+---
 ## 📊 GitHub Activity
 
 <div align="center">
