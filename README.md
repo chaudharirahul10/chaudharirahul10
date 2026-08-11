@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rahul Chaudhary
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Rahul%20Chaudhary&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20%26%20Machine%20Learning%20Student%20%7C%20Python%20Developer&descAlignY=58&descSize=18" width="100%" alt="Rahul Chaudhary"/>
 
 ### AI & Machine Learning Student | Python Developer | Building intelligent solutions through code.
 
