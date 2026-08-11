@@ -274,6 +274,13 @@ A full-stack task management application built to explore frontend-backend integ
 
 ---
 
+## 🎓 Education
+
+**Bachelor of Engineering (BE)**  
+Chandigarh University
+
+> Focused on Software Development, Artificial Intelligence, Machine Learning, and modern computing technologies.
+
 ## 🏆 Achievements
 
 <!-- We'll add your real achievements, certifications and hackathons here -->
