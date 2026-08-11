@@ -6,13 +6,17 @@
 
 <br>
 
-<a href="https://www.rahulchaudhary07.com.np">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Website-2563eb?style=for-the-badge" alt="Portfolio"/>
+<a href="...">
+  Portfolio
 </a>
-&nbsp;
-<a href="https://github.com/chaudharirahul10">
-  <img src="https://img.shields.io/badge/💻_GitHub-View_Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+
+<a href="...">
+  GitHub
 </a>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=chaudharirahul10&label=Profile%20Views&color=2563eb&style=for-the-badge" alt="Profile Views"/>
 
 </div>
 
