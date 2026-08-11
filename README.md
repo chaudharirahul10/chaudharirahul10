@@ -220,11 +220,26 @@ A full-stack task management application built to explore frontend-backend integ
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=chaudharirahul10&show_icons=true&hide_border=true&rank_icon=github" height="170" alt="GitHub Stats"/>
+<a href="https://github.com/chaudharirahul10">
+  <img src="https://github-readme-stats.vercel.app/api?username=chaudharirahul10&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" height="180" alt="Rahul's GitHub Stats"/>
+</a>
 
-<img src="https://streak-stats.demolab.com?user=chaudharirahul10&hide_border=true" height="170" alt="GitHub Streak"/>
+<a href="https://github.com/chaudharirahul10">
+  <img src="https://streak-stats.demolab.com?user=chaudharirahul10&hide_border=true" height="180" alt="Rahul's GitHub Streak"/>
+</a>
 
 </div>
+
+<br>
+
+<div align="center">
+
+<a href="https://github.com/chaudharirahul10">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chaudharirahul10&layout=compact&hide_border=true&langs_count=8" height="180" alt="Top Languages"/>
+</a>
+
+</div>
+
 
 ---
 
