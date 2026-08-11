@@ -251,6 +251,14 @@ A full-stack task management application built to explore frontend-backend integ
 
 </div>
 
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/chaudharirahul10/chaudharirahul10/output/github-contribution-grid-snake.svg" width="95%" alt="Contribution Snake"/>
+
+</div>
+
 
 ---
 
