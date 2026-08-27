@@ -127,19 +127,29 @@ Exploring Power BI, Microsoft Fabric, OneLake, Azure, and modern data technologi
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=chaudharirahul10&show_icons=true&hide_border=true&rank_icon=github" height="170"/>
+### 🚀 Consistency is the key to growth
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chaudharirahul10&layout=compact&hide_border=true" height="170"/>
-
-</div>
+I believe in learning by doing — writing code, solving problems, building projects, and improving every day.
 
 <br>
 
-<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chaudharirahul10&hide_border=true&area=true" width="95%" />
 
-<img src="https://streak-stats.demolab.com?user=chaudharirahul10&hide_border=true" />
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chaudharirahul10&hide_border=true" width="70%" />
 
 </div>
+
+---
+
+### 📊 My Focus
+
+|         💻 Coding         | 🧠 Problem Solving |     🚀 Building     |
+| :-----------------------: | :----------------: | :-----------------: |
+| Writing code consistently |  DSA & Algorithms  | Real-world projects |
+|    C++ • Java • Python    |  Logical thinking  |   AI • Full-Stack   |
+
 
 ---
 
