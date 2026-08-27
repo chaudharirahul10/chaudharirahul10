@@ -127,30 +127,20 @@ Exploring Power BI, Microsoft Fabric, OneLake, Azure, and modern data technologi
 
 <div align="center">
 
-### 🚀 Consistency is the key to growth
+### 🚀 Building in Public
 
-I believe in learning by doing — writing code, solving problems, building projects, and improving every day.
+I believe in learning by doing — writing code, solving problems,
+building projects, and improving every day.
 
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=chaudharirahul10&hide_border=true&area=true" width="95%" />
+**100 Days of Code** • **Data Structures & Algorithms** • **AI/ML** • **Full-Stack Development**
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chaudharirahul10&hide_border=true" width="70%" />
+> "Consistency beats intensity."
 
 </div>
-
----
-
-### 📊 My Focus
-
-|         💻 Coding         | 🧠 Problem Solving |     🚀 Building     |
-| :-----------------------: | :----------------: | :-----------------: |
-| Writing code consistently |  DSA & Algorithms  | Real-world projects |
-|    C++ • Java • Python    |  Logical thinking  |   AI • Full-Stack   |
-
-
 ---
 
 ## 🎯 Current Goals
