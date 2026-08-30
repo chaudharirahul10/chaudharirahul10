@@ -5,9 +5,10 @@ import { PROFILE_INFO, HIGHLIGHTS } from '../data/profileData';
 interface HeroSectionProps {
   onExploreProjects: () => void;
   onExploreSnake: () => void;
+  onOpenReadme: () => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onExploreSnake }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onExploreSnake, onOpenReadme }) => {
   return (
     <section id="about" className="relative py-12 md:py-16 overflow-hidden">
       {/* Background ambient lighting */}
@@ -52,21 +53,30 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onE
             {/* Action buttons */}
             <div className="flex flex-wrap items-center gap-3 pt-4">
               <button
+                id="hero-open-readme-btn"
+                onClick={onOpenReadme}
+                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 via-indigo-500 to-sky-500 hover:from-indigo-500 hover:to-sky-400 text-white text-sm font-bold shadow-lg shadow-indigo-600/30 flex items-center gap-2 transition-all hover:scale-[1.02]"
+              >
+                <Sparkles className="w-4 h-4 text-emerald-300" />
+                <span>Get 100% Fixed README.md</span>
+              </button>
+
+              <button
                 id="hero-explore-projects-btn"
                 onClick={onExploreProjects}
-                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white text-sm font-semibold shadow-lg shadow-indigo-600/25 flex items-center gap-2 transition-all group"
+                className="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 hover:border-slate-600 text-sm font-semibold flex items-center gap-2 transition-all group"
               >
-                <span>View Featured Projects</span>
+                <span>View Projects</span>
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </button>
 
               <button
                 id="hero-play-snake-btn"
                 onClick={onExploreSnake}
-                className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 hover:border-slate-600 text-sm font-semibold flex items-center gap-2 transition-all"
+                className="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 hover:border-slate-600 text-sm font-semibold flex items-center gap-2 transition-all"
               >
                 <Sparkles className="w-4 h-4 text-emerald-400" />
-                <span>Play Contribution Snake</span>
+                <span>Snake Game</span>
               </button>
 
               <a
@@ -74,10 +84,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onE
                 href={PROFILE_INFO.portfolio}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2.5 rounded-xl bg-slate-950 hover:bg-slate-900 text-slate-300 border border-slate-800 hover:border-slate-700 text-sm font-medium flex items-center gap-1.5 transition-all"
+                className="px-3.5 py-2.5 rounded-xl bg-slate-950 hover:bg-slate-900 text-slate-300 border border-slate-800 hover:border-slate-700 text-sm font-medium flex items-center gap-1.5 transition-all"
               >
                 <Globe className="w-4 h-4 text-indigo-400" />
-                <span>Visit Portfolio</span>
+                <span>Portfolio</span>
               </a>
             </div>
           </div>

@@ -8,10 +8,12 @@ import { ContributionSnakeVisualizer } from './components/ContributionSnakeVisua
 import { GoalsTrackerSection } from './components/GoalsTrackerSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { ReadmeModal } from './components/ReadmeModal';
 import { PROFILE_INFO } from './data/profileData';
 
 export function App() {
   const [activeSection, setActiveSection] = useState<string>('about');
+  const [isReadmeModalOpen, setIsReadmeModalOpen] = useState<boolean>(false);
 
   const scrollToSection = (sectionId: string) => {
     setActiveSection(sectionId);
@@ -28,13 +30,18 @@ export function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500/30 selection:text-indigo-200">
       {/* Top Navigation */}
-      <Navbar activeSection={activeSection} onNavigate={scrollToSection} />
+      <Navbar 
+        activeSection={activeSection} 
+        onNavigate={scrollToSection} 
+        onOpenReadme={() => setIsReadmeModalOpen(true)} 
+      />
 
       {/* Main Content Sections */}
       <main className="flex-1">
         <HeroSection
           onExploreProjects={() => scrollToSection('projects')}
           onExploreSnake={() => scrollToSection('snake')}
+          onOpenReadme={() => setIsReadmeModalOpen(true)}
         />
 
         {/* Contribution Snake Simulation */}
@@ -62,6 +69,12 @@ export function App() {
 
       {/* Footer */}
       <Footer />
+
+      {/* 100% Fixed GitHub Profile README Modal */}
+      <ReadmeModal 
+        isOpen={isReadmeModalOpen} 
+        onClose={() => setIsReadmeModalOpen(false)} 
+      />
     </div>
   );
 }

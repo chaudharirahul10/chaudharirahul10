@@ -5,9 +5,10 @@ import { PROFILE_INFO } from '../data/profileData';
 interface NavbarProps {
   activeSection: string;
   onNavigate: (sectionId: string) => void;
+  onOpenReadme: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate }) => {
+export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate, onOpenReadme }) => {
   const navLinks = [
     { id: 'about', label: 'About', icon: Terminal },
     { id: 'stack', label: 'Tech Stack', icon: Layers },
@@ -61,7 +62,17 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate }) => 
         </nav>
 
         {/* Right CTA Links */}
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2">
+          <button
+            id="nav-readme-btn"
+            onClick={onOpenReadme}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs font-semibold transition-all hover:scale-105"
+            title="Get 100% Fixed GitHub README.md"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+            <span>Get README.md</span>
+          </button>
+
           <a
             id="nav-github-link"
             href={PROFILE_INFO.github}
