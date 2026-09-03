@@ -1,14 +1,15 @@
 import React from 'react';
-import { GitBranch, Globe, Sparkles, Terminal, Mail, Layers } from 'lucide-react';
+import { GitBranch, Globe, Sparkles, Terminal, Mail, Layers, Play } from 'lucide-react';
 import { PROFILE_INFO } from '../data/profileData';
 
 interface NavbarProps {
   activeSection: string;
   onNavigate: (sectionId: string) => void;
   onOpenReadme: () => void;
+  onReplayIntro?: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate, onOpenReadme }) => {
+export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate, onOpenReadme, onReplayIntro }) => {
   const navLinks = [
     { id: 'about', label: 'About', icon: Terminal },
     { id: 'stack', label: 'Tech Stack', icon: Layers },
@@ -63,6 +64,18 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate, onOpe
 
         {/* Right CTA Links */}
         <div className="flex items-center gap-2">
+          {onReplayIntro && (
+            <button
+              id="nav-replay-intro-btn"
+              onClick={onReplayIntro}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-cyan-950/40 hover:bg-cyan-900/60 text-cyan-300 border border-cyan-500/30 hover:border-cyan-400 text-xs font-mono transition-all"
+              title="Replay Futuristic Intro Screen"
+            >
+              <Play className="w-3 h-3 text-cyan-400 fill-cyan-400/20" />
+              <span className="hidden sm:inline">Intro</span>
+            </button>
+          )}
+
           <button
             id="nav-readme-btn"
             onClick={onOpenReadme}

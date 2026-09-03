@@ -2,13 +2,13 @@ import { Project, TechItem, FocusArea, Goal } from '../types';
 
 export const PROFILE_INFO = {
   name: "Rahul Chaudhary",
-  title: "Software Developer • AI/ML Enthusiast • Problem Solver",
+  title: "AI/ML Developer • Python Developer • Software Engineer",
   headline: "Building practical software, exploring Artificial Intelligence & Machine Learning, and improving one project at a time.",
   bio: "I'm a Computer Science student passionate about software development, Artificial Intelligence, and Machine Learning. I enjoy turning ideas into real-world applications and learning through hands-on projects.",
   location: "Nepal",
   github: "https://github.com/chaudharirahul10",
   githubUsername: "chaudharirahul10",
-  portfolio: "https://www.rahulchaudhary07.com.np",
+  portfolio: "https://rahulchaudhary07.com.np",
   email: "chaudharyraul07@gmail.com",
   philosophy: "I believe in learning by doing — writing code, solving problems, building projects, and improving every day.",
   quote: "Consistency beats intensity.",

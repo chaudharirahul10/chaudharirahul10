@@ -9,9 +9,11 @@ import { GoalsTrackerSection } from './components/GoalsTrackerSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ReadmeModal } from './components/ReadmeModal';
+import { FuturisticIntroScreen } from './components/FuturisticIntroScreen';
 import { PROFILE_INFO } from './data/profileData';
 
 export function App() {
+  const [showIntro, setShowIntro] = useState<boolean>(true);
   const [activeSection, setActiveSection] = useState<string>('about');
   const [isReadmeModalOpen, setIsReadmeModalOpen] = useState<boolean>(false);
 
@@ -27,13 +29,23 @@ export function App() {
     }
   };
 
+  const handleReplayIntro = () => {
+    setShowIntro(true);
+  };
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500/30 selection:text-indigo-200">
+      {/* Futuristic Cinematic AI Intro Screen */}
+      {showIntro && (
+        <FuturisticIntroScreen onComplete={() => setShowIntro(false)} />
+      )}
+
       {/* Top Navigation */}
       <Navbar 
         activeSection={activeSection} 
         onNavigate={scrollToSection} 
-        onOpenReadme={() => setIsReadmeModalOpen(true)} 
+        onOpenReadme={() => setIsReadmeModalOpen(true)}
+        onReplayIntro={handleReplayIntro}
       />
 
       {/* Main Content Sections */}
@@ -42,6 +54,7 @@ export function App() {
           onExploreProjects={() => scrollToSection('projects')}
           onExploreSnake={() => scrollToSection('snake')}
           onOpenReadme={() => setIsReadmeModalOpen(true)}
+          onReplayIntro={handleReplayIntro}
         />
 
         {/* Contribution Snake Simulation */}

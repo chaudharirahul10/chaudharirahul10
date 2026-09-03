@@ -1,14 +1,15 @@
 import React from 'react';
-import { Sparkles, ArrowUpRight, Globe, MapPin, CheckCircle2 } from 'lucide-react';
+import { Sparkles, ArrowUpRight, Globe, MapPin, CheckCircle2, Play } from 'lucide-react';
 import { PROFILE_INFO, HIGHLIGHTS } from '../data/profileData';
 
 interface HeroSectionProps {
   onExploreProjects: () => void;
   onExploreSnake: () => void;
   onOpenReadme: () => void;
+  onReplayIntro?: () => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onExploreSnake, onOpenReadme }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onExploreSnake, onOpenReadme, onReplayIntro }) => {
   return (
     <section id="about" className="relative py-12 md:py-16 overflow-hidden">
       {/* Background ambient lighting */}
@@ -78,6 +79,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreProjects, onE
                 <Sparkles className="w-4 h-4 text-emerald-400" />
                 <span>Snake Game</span>
               </button>
+
+              {onReplayIntro && (
+                <button
+                  id="hero-replay-intro-btn"
+                  onClick={onReplayIntro}
+                  className="px-3.5 py-2.5 rounded-xl bg-cyan-950/40 hover:bg-cyan-900/50 text-cyan-300 border border-cyan-500/40 hover:border-cyan-400 text-sm font-medium flex items-center gap-1.5 transition-all shadow-sm shadow-cyan-950/40"
+                  title="Replay Futuristic Intro Screen"
+                >
+                  <Play className="w-4 h-4 text-cyan-400 fill-cyan-400/20" />
+                  <span>Intro Screen</span>
+                </button>
+              )}
 
               <a
                 id="hero-portfolio-btn"
